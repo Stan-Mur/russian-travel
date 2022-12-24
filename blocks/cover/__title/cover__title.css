@@ -7,7 +7,7 @@
   line-height: 76px;
   text-align: center;
   color: #ffffff;
-  margin: 245px 0 0 0;
+  margin: 0;
   z-index: 1;
 }
 
@@ -19,20 +19,4 @@
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .cover__title {
-    margin: 195px 0 0 0;
-  }
-}
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .cover__title {
-    margin: 115px 0 0 0;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .cover__title {
-    margin: 33px 0 0 0;
-  }
-}

@@ -12,6 +12,9 @@
   -ms-flex-align: center;
   align-items: center;
   text-decoration: none;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .cover__overlay:before {
@@ -30,7 +33,7 @@
 
 .cover__overlay:hover:before {
   background: #2a2c2f;
-  opacity: .8;
+  opacity: 0.8;
   -webkit-transition: 500ms ease-in-out;
   -o-transition: 500ms ease-in-out;
   transition: 500ms ease-in-out;
